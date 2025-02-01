@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "name": "capstone---3---ejs",
+  "version": "3.0.0",
+  "description": "New upgraded format of the previous \"MyWebSite\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gonna be given"
+  },
+  "keywords": [
+    "ejs",
+    "node",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Tevfik Çelik",
+  "license": "ISC"
+}

@@ -1,0 +1,83 @@
+#photo-name .row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+
+#photo-name .photo-container {
+    flex-shrink: 0;
+    width: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#photo-name img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#summary .row {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#education .row {
+    display: grid; 
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#education .col {
+    display: flex;
+    align-items: flex-start;
+}
+
+#work-experience .experience-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 2rem 0
+}
+
+#skills .skills-list {
+    display: grid;
+    gap: 20px;
+    padding: 2rem 0;
+    grid-template-columns: repeat(1, 1fr); 
+}
+
+#skills .skills-list > div {
+    border-right: 2px solid #ddd; 
+}
+
+#skills .skills-list > div:last-child {
+    border-right: none; 
+}
+
+
+@media (min-width: 992px) {
+    #summary .row {
+        grid-template-columns: 1fr; 
+    }
+}
+@media (min-width: 768px) {
+    #education .row {
+        grid-template-columns: repeat(2, 1fr); /
+    }
+
+    #work-experience .experience-list {
+        grid-template-columns: 1fr;
+    }
+
+    #skills .skills-list {
+        grid-template-columns: repeat(4, 1fr); 
+    }
+}

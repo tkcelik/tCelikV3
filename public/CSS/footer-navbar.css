@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#footer {
+    margin-top: auto; 
+    width: 100%; 
+}
+
+___________________
+
+#header .container{
+    padding-top: 1.5rem; 
+    padding-bottom: 0.75rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: firebrick;
+}
+
+.navbar-brand:hover {
+    color: darkred; 
+}
+
+
+.nav-link {
+    font-size: 1.5rem;
+    color: #555; 
+    margin: 0 0.5rem;
+    
+}
+
+.nav-link:hover {
+    color: firebrick; 
+}
+
+.nav-link.active {
+    color: white !important;
+    font-weight: bold;
+    background-color: firebrick !important;
+    border-radius: 5px;
+    padding: 0.4rem 0.8rem;
+}
